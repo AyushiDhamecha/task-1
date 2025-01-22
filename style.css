@@ -1,0 +1,385 @@
+html, body {
+    overflow-x: hidden;
+  }
+
+body{
+    /* font-family:Arial, Helvetica, sans-serif; */
+    position: relative;
+    width: 100vw;
+}
+
+.green,.fa .fa-play-circle,.bi .bi-arrow-up-square-fill{
+    color: rgb(5, 189, 29);
+}
+.effect{
+    color: gray;
+}
+.effect:hover{
+    color: rgb(5, 189, 29);
+}
+.img{
+    height: 80vh;
+
+}
+.zoom:hover{
+    transform: scale(1.2);
+}
+.zoom{
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.zoom-in:hover{
+    transform: scale(0.9);
+}
+.zoom-in{
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.underline{
+    border-bottom: 4px solid rgb(1, 201, 28);
+    padding: 0px 0px 25px ;
+}
+
+/* ---------------------------------NAVBAR---------------------------- */
+.nav-item .nav-link:hover{
+    color: rgb(5, 189, 29);
+}
+
+
+.dropdown-item:hover{
+  color: rgb(5, 189, 29);
+  background-color: white;
+}
+
+.list-inline .list-inline-item .nav-link:hover{
+    color: rgb(5, 189, 29);
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+/* ----------------------------HOME PAGE(SLIDER)------------------------------ */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.534);
+    border-top: 4px solid rgb(4, 202, 31);
+}
+
+.carousel .carousel-indicators button{
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    /* color: rgb(30, 182, 30); */
+}
+
+.carousel .carousel-indicators .active{ 
+    background-color: rgb(30, 182, 30);
+}
+
+.carousel-item img{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: rgb(30, 182, 30);
+  background-size: 50%,50%;
+  height: 40px;
+  width: 40px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.readmore{
+    border: 2px solid rgb(30, 182, 30);
+    color: white;
+    background-color: transparent;
+}
+
+.readmore:hover{
+    background-color: rgb(30, 182, 30);
+}
+
+/* -------------------------------ABOUT SECTION-------------------------- */
+.list-unstyled li a{
+    text-decoration: none;
+}
+
+.list-unstyled li a:hover{
+    color: rgb(15, 163, 15);
+}
+
+
+.left{
+    margin-right: 100px;
+}
+
+.right-img{
+    position: absolute;
+    right:20%;
+    height:calc(200%);
+}
+
+
+button{
+    border: 4px solid rgb(2, 204, 29);
+}
+
+.bi-arrow-up-square-fill{
+    color: rgb(5, 189, 29);
+}
+/* .photo{
+    width: 80vw;
+} */
+
+/* --------------------------------------------servisec--------------------------------------------------- */
+/* .contant::before{
+    content: "<i class="bi bi-activity"></i>";
+} */
+
+.bi .bi-activity{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+  
+
+  
+  .services .service-item .icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+  }
+  
+  .services .service-item .icon i {
+    font-size: 36px;
+    transition: 0.5s;
+    position: relative;
+  }
+  
+  .services .service-item .icon svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .services .service-item.item-cyan i {
+    color: #0dcaf0;
+  }
+  
+  .services .service-item.item-cyan:hover .icon i {
+    color: #fff;
+  }
+  
+  .services .service-item.item-cyan:hover .icon path {
+    fill: #0dcaf0;
+  }
+  
+  .services .service-item.item-orange i {
+    color: #fd7e14;
+  }
+  
+  .services .service-item.item-orange:hover .icon i {
+    color: #fff;
+  }
+  
+  .services .service-item.item-orange:hover .icon path {
+    fill: #fd7e14;
+  }
+  
+  .services .service-item.item-teal i {
+    color: #20c997;
+  }
+  
+  .services .service-item.item-teal:hover .icon i {
+    color: #fff;
+  }
+  
+  .services .service-item.item-teal:hover .icon path {
+    fill: #20c997;
+  }
+  
+  .services .service-item.item-red i {
+    color: #df1529;
+  }
+  
+  .services .service-item.item-red:hover .icon i {
+    color: #fff;
+  }
+  
+  .services .service-item.item-red:hover .icon path {
+    fill: #df1529;
+  }
+  
+  .services .service-item.item-indigo i {
+    color: #6610f2;
+  }
+  
+  .services .service-item.item-indigo:hover .icon i {
+    color: #fff;
+  }
+  
+  .services .service-item.item-indigo:hover .icon path {
+    fill: #6610f2;
+  }
+  
+  .services .service-item.item-pink i {
+    color: #f3268c;
+  }
+  
+  .services .service-item.item-pink:hover .icon i {
+    color: #fff;
+  }
+  
+  .services .service-item.item-pink:hover .icon path {
+    fill: #f3268c;
+  }
+  
+  
+  
+/* ------------------------------------------PORTFOLIO CONTENT----------------------------------------------------- */
+
+
+.box {
+    position: relative;
+
+}
+
+.overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
+.box:hover .overlay {
+    opacity: 1;
+}
+
+.overlayBottom{
+    width:auto;
+    height: 0;
+    bottom: 24px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+.box:hover .overlayBottom{
+   height: 70px;
+}
+
+#mainbtn{
+    background-color: green;
+    color: white;
+}
+.port_btn:hover{
+    background-color: green;
+    color: white;
+}
+
+/* ---------------------------------------client--------------------------------------- */
+.zoom{
+    height: 150px;
+    width: 150px;
+}
+
+
+
+/* .next:hover{
+    background-color: rgb(7, 231, 37);
+} */
+
+
+
+/* .green:hover{
+    color: rgb(17, 161, 17);
+} */
+
+/* -------------------------------Footer------------------------------------------ */
+
+.f-border{
+    color: aliceblue;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.f-border:hover{
+    color: rgb(7, 231, 37);
+    border-color: rgb(7, 231, 37);
+}
+
+.f-link:hover{
+    color: rgb(30, 182, 30);
+}
+.fa-linkedin:hover{
+    color: rgb(30, 182, 30);
+}
+.fa-twitter,.bi-facebook,.fa-instagram,.fa-linkedin{
+    color: rgb(218, 211, 211);
+}
+
+.font{
+    color: rgb(218, 211, 211);
+    font-size:15px;
+}
+.f-border:hover{
+    border-color: rgb(30, 182, 30);
+}
+
+.f-link{
+    color: rgb(218, 211, 211);
+    font-size:15px;
+}
+.f-link:hover{
+    color: rgb(30, 182, 30);
+}
+
+.bi-arrow-up-square-fill{
+    position: fixed;
+    bottom:40px;
+    right: 50px;
+    background-color: white;
+    border-radius: 100%;
+}
+.subscribe{
+    background-color:rgb(30, 182, 30) ;
+    color: white;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+/* --------------------------------media Query for overlapping------------------------------ */
+
+@media (min-width: 100px) and (max-width: 1000px)  {
+    .left {
+        margin-right: auto;
+    }
+    .right-img{
+        position: static;
+        
+    }
+    .list-inline{
+        display:block;
+    }
+    /* .about-part{
+        height: 100vh;
+    } */
+  }
